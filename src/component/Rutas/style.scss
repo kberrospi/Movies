@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+ 
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.carousel-inner > .item {
+    max-height: 50%;
+}
+
+.carousel-inner > .item > img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    width: auto;
+}
+.fluid{
+    background-color: bisque;
+    max-width: 100%;
+}
+
+.container{
+    max-width: 75%;
+}
+
+.cardM{
+    width: 15rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem; 
+    border-radius: 1rem;
+    height: 33rem;
+    box-shadow: 2px 2px 2px  #cdcdcd  ;
+}
+
+h2{
+    padding: 2rem;
+}
+
+
+.card-img-top{
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+
+ 
